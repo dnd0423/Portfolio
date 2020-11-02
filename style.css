@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+body{
+	background-color: #F3BB5E;
+	color: #B15C00;
+	font-size: 87.5%;
+	line-height: 1.5;
+}
+header,nav,#breadcrumb,#contents,footer{
+	margin: 0 auto 0 auto;
+	width: 1400px;
+}
+header h1{
+	margin: 0 0 26px 0;
+	padding-top: 28px;
+	text-align: center;
+}
+nav ul{
+	margin: 0 0 20px 0;
+	list-style-type: none;
+	overflow: hidden;
+	padding-right: 0;
+}
+nav ul li{
+	width: 300px;
+	float: right;
+}
+nav ul li a{
+	display: block;
+	height: 0;
+	padding-top: 44px;
+	overflow: hidden;
+}
+nav ul li#nav_concept a{
+	background-image: url(nav1.png);
+	background-repeat: no-repeat;
+}
+nav ul li#nav_plan a{
+	background-image: url(nav2.png);
+	background-repeat: no-repeat;
+}
+nav ul li#nav_fair a{
+	background-image: url(nav3.png);
+	background-repeat: no-repeat;
+}
+nav ul li#nav_contact a{
+	background-image: url(nav4.png);
+	background-repeat: no-repeat;
+}
+#contents{
+	overflow: hidden;
+}
+
+#main{
+	float: left;
+	width: 700px;
+
+}
+#sub{
+	float: right;
+	width: 700px;
+
+}
+footer{
+	padding-top: 70px;
+}
+#main h1{
+	margin: 0 0 30px 0;
+	padding: 35px 0 35px 65px;
+	font-size: 156.25%;
+	background-image: url(bottom.png), url(bottom.png);
+	background-repeat: no-repeat,no-repeat;
+	background-position: left top, left bottom;
+}
+#concept #nav_concept a, 
+#plan #nav_plan a,
+#fair #nav_fair a,
+#contact #nav_contact a,
+nav ul li a:hover{
+	background-position: 0 45px;
+}
+
+
+/* 基本レイアウト ここまで↑ */
+
+/* トップページ ここから↓ */
+#news ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+#news ul li{
+	padding: 20px 0 20px 175px;
+	border-bottom: 1px dotted #6c5f45;
+	color:#342300;
+	text-indent: -175px;
+}
+#news ul li time{
+	display: inline-block;
+	width: 175px;
+	font-weight: bold;
+	color:#6c5f45;
+	text-indent: 0;
+}
+/* トップページ ここまで↑ */
+
+/* 「結婚式場のコンセプト」ページ ここから↓ */
+.concept_box{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.image_right{
+	float: right;
+	margin-left : 20px;
+}
+.image_left{
+	float: left;
+	margin-right: 20px;
+}
+.concept_box:last-child
+.concept_box p:last_child{
+	margin-bottom: 0;
+}
+/* 「結婚式場のコンセプト」ページ ここまで↑ */
+
+/* 「プランのご案内」ページ ここから↓ */
+
+/* 「プランのご案内」ページ ここまで↑ */
+
+/* 「ブライダルフェア」ページ ここから↓ */
+.gallery_box {
+	overflow: hidden;
+	
+}
+
+.gallery_box figure {
+	margin: 0 0 50px 50px;
+	width: 180px;
+	float: left;
+}
+
+
+/* 「ブライダルフェア」ページ ここまで↑ */
+
+/* 「お問い合わせ」ページ ここから↓ */
+
+/* 「お問い合わせ」ページ ここまで↑ */
